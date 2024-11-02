@@ -8,9 +8,9 @@ export default function Navbar() {
       <div className='flex items-center justify-between mx-auto max-w-4xl h-16'>
         <Link href="/" className="text-xl font-bold">
 
-         <Link href='/'>
+         <Link href='/' className='flex items-center gap-2'>
          <AirVent />
-         <span>Next-Auth</span>
+         <span className='font-bold'>Nextauth.</span>
          </Link>
         </Link>
         
