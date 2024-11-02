@@ -7,8 +7,10 @@ export default function Navbar() {
     <nav className='border-b px-4 py-2 bg-white'>
       <div className='flex items-center justify-between mx-auto max-w-4xl h-16'>
         <Link href="/" className="text-xl font-bold">
+
          <Link href='/'>
          <AirVent />
+         <span>Next-Auth</span>
          </Link>
         </Link>
         
